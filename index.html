@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -483,17 +483,209 @@
 
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
 
+            <div class="services__container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen services__icon"></i>
+                        <h3 class="services__title">Branding <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Branding <br> Designer</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
 
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper"></div>
+                <div>
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
+                    css-mode="true"> 
+                    <swiper-slide>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <swiper-slide>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Brand Design</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <swiper-slide>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Online Store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                </div>
+
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <div class="swiper-pagination"></div> -->
+            </div>
+        </swiper-container>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 30% discount on your project</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
 
+                    <img src="assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
         </section>
 
         <!--==================== TESTIMONIAL ====================-->
@@ -516,7 +708,7 @@
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
